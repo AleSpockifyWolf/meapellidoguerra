@@ -522,9 +522,9 @@ ul.sub-menu {
 
 .copyright-text{
   margin-top: 70px;
-  color: #fff;
-  font-size: 16px;
-  padding-bottom: 15px;
+  color: #000000;
+  font-size: 12px;
+  padding-bottom: 1px;
 }
 
 .copyright-text a {
@@ -1940,7 +1940,7 @@ span.stButton_gradient,
 }
 
 #gmap {
-  height: 350px;
+  height: 200px;
 }
 
 .get-in-touch img {
