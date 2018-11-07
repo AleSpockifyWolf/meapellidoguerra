@@ -14,6 +14,12 @@
   <link href="../css/animate.min.css" rel="stylesheet">
   <link href="../css/main.css" rel="stylesheet">
   <link href="../css/responsive.css" rel="stylesheet">
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-124960994-1');
+  </script>
 
   <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
@@ -28,7 +34,7 @@
 
 <body>
   <header id="header">
-    <div class="container">
+    <div class="">
       <div class="row">
         <div class="col-sm-12 overflow">
           <div class="social-icons pull-right">
@@ -36,9 +42,10 @@
 
               <li></li>
               <li></li>
-              <li><a href="https://www.facebook.com/daniela.guillen.7" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <!-- <li><a href=""><i class="fa fa-twitter"></i></a></li> -->
-              <li><a href="https://www.instagram.com/daniela_guillen/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/meapellidoguerra" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/meapellido" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/meapellidoguerra/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+<li><a href="english/index.html">EN</a></li>
 
             </ul>
           </div>
@@ -46,7 +53,7 @@
       </div>
     </div>
     <div class="navbar navbar-inverse" role="banner">
-      <div class="container">
+      <div class="">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -59,9 +66,17 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li ><a href="../index.html"><b>Inicio</b></a></li>
-          <li ><a href="../vol1"><b>Volumen 1</b></a>
+          <li class="dropdown"><a href="../vol1"><b>Volumen 1</b><i class="fa fa-angle-down"></i></a>
+  <ul role="menu" class="sub-menu">
+    <!-- <li><a href="coming-soon.html">La pieza</a></li> -->
+    <li><a href="../coming-soon">Entrevistas</a></li>
+    <li><a href="../coming-soon">Material</a></li>
+  </ul>
         </li>
-        <li class="dropdown"><a href="../vol2"> <b>Volumen 2</b></a>
+        <li class="dropdown"><a href="../vol2"> <b>Volumen 2</b><i class="fa fa-angle-down"></i></a>
+  <ul role="menu" class="sub-menu">
+    <li><a href="../proyectos">Proyectos</a></li>
+  </ul>
       </li>
       <li class="dropdown"><a href="../vol3"><b>Volumen 3</b></a>
     </li>
@@ -71,6 +86,8 @@
         <li><a href="../colaboradores">Colaboradores</a></li>
       </ul>
     </li>
+    <li class="dropdown"><a href="../soundtrack"><b>Soundtrack</b></a></li>
+      <li class="dropdown"><a href="../agenda"><b>Agenda</b></a></li>
     <li class="active"><a href="index.html"><b>Contacto</b></a>
   </li>
   <!-- <li><a href="shortcodes.html ">Shortcodes</a></li> -->

@@ -204,7 +204,7 @@
   color: #818285;
   font-weight: 300;
   outline: none;
-  border: 1px solid #00aeef;
+  border: 1px solid #9bbc87;
   margin-top: 20px;
   border-radius: 4px;
 }
@@ -293,7 +293,7 @@
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
-  color: #00aeef;
+  color: #9bbc87;
 }
 
 
@@ -315,7 +315,7 @@ ul.sub-menu {
 }
 
 #header .navbar-nav li ul.sub-menu li .active{
-  background: #00aeef;
+  background: #9bbc87;
   color: #fff;
   position: relative;
 }
@@ -337,7 +337,7 @@ ul.sub-menu {
 
 #header .navbar-nav li ul.sub-menu li a:hover,
 #header .navbar-nav li ul.sub-menu li a:focus{
-  background: #00aeef;
+  background: #9bbc87;
   color: #fff;
 }
 
@@ -639,7 +639,7 @@ ul.sub-menu {
   font-size: 48px;
   height: 48px;
   line-height: 48px;
-  color: #00aeef;
+  color: #9bbc87;
   position: absolute;
   left: 50%;
   margin-left: -24px;
@@ -914,7 +914,7 @@ ul.sub-menu {
 
 .count h1{
   font-size: 60px;
-  color: #00aeef;
+  color: #9bbc87;
 }
 
 .count h3{
@@ -958,7 +958,7 @@ h3.top-zero{
 }
 
 .progress-bar.progress-bar-primary{
-  background: #00aeef;
+  background: #9bbc87;
 }
 
 
@@ -1971,7 +1971,7 @@ span.stButton_gradient,
 }
 
 #map-section address a:hover {
-  color:#00AEEF
+  color: #9bbc87;
 }
 
 #contact-form #message{
@@ -2639,7 +2639,7 @@ span.stButton_gradient,
   background-color: transparent;
   height: 52px;
   color: #fff;
-  border:2px solid #00aeef;
+  border:2px solid #9bbc87;
 }
 
 #newsletter {
